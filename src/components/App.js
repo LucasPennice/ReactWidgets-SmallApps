@@ -42,8 +42,8 @@ export default () => {
 			<RotatingMenu />
 			<Presentation title="7 - Search Widget" />
 			<SearchWidget plHolder="I do not work" /> 
-			<Presentation title="8 - Song Detail" />
-			<SongDetail />
+// 			<Presentation title="8 - Song Detail" />
+// 			<SongDetail />
 			 <Presentation title="9 - Translator" />
 			<Translate />
 			<Presentation title="10 - Youtube Video App" />
