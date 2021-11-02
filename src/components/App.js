@@ -23,7 +23,7 @@ export default () => {
 
 	return (
 		<div>
-			{/* <Presentation title="1 - Expanding Cards" />
+			<Presentation title="1 - Expanding Cards" />
 			<CardsContainer />
 			<Presentation title="2 - Progress Steps" />
 			<ProgressForm />
@@ -41,13 +41,13 @@ export default () => {
 			<Presentation title="6 - Rotating Menu" />
 			<RotatingMenu />
 			<Presentation title="7 - Search Widget" />
-			<SearchWidget plHolder="I do not work" /> */}
+			<SearchWidget plHolder="I do not work" /> 
 			<Presentation title="8 - Song Detail" />
 			<SongDetail />
-			{/* <Presentation title="9 - Translator" />
+			 <Presentation title="9 - Translator" />
 			<Translate />
 			<Presentation title="10 - Youtube Video App" />
-			<YoutubeSearch /> */}
+			<YoutubeSearch /> 
 		</div>
 	);
 };
