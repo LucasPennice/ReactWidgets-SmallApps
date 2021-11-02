@@ -1,0 +1,26 @@
+.imagesContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.imageDiv {
+	/* background-color: teal; */
+	cursor: pointer;
+	transition: 0.2s;
+	position: relative;
+	border-radius: 5px;
+}
+
+.imageText {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	margin-left: 10px;
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}

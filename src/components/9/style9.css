@@ -1,0 +1,28 @@
+.container {
+	margin: 0 auto;
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+}
+
+.inp {
+	padding-left: 1rem;
+	border: 1px solid gray;
+	border-radius: 10px;
+	height: 2rem;
+	box-shadow: 0 2px 3px rgba(128, 128, 128, 0.548);
+	margin-bottom: 2rem;
+	margin-top: 0.5rem;
+}
+
+.lbl {
+	text-align: left;
+	font-size: 1.5rem;
+}
+
+.output {
+	border-radius: 10px;
+	border: 1px solid gray;
+	min-height: 20px;
+	box-shadow: 0 2px 3px rgba(128, 128, 128, 0.548);
+}

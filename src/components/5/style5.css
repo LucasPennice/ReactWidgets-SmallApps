@@ -1,0 +1,63 @@
+.dropdown {
+	margin: 0 auto;
+	width: 200px;
+	box-shadow: 0 0 5px grey;
+	border-radius: 5px;
+	transition: 0.2s;
+}
+
+.dropdownTitle {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 0.2rem;
+	padding: 0.5rem;
+	cursor: pointer;
+}
+.dropdownTitle:hover {
+	background-color: rgb(230, 230, 230);
+}
+
+.dropdownTitle > label {
+	cursor: pointer;
+}
+
+.rotate {
+	transform: rotateZ(45deg);
+	transition: 0.2s;
+}
+.not {
+	transform: rotateZ(0deg);
+	transition: 0.2s;
+}
+
+.dropdownOption {
+	border-radius: 5px;
+	padding: 0.5rem;
+	cursor: pointer;
+	transition: 0.2s;
+	animation: onOpen 0.2s;
+}
+.dropdownOption:hover {
+	background-color: rgb(230, 230, 230);
+}
+
+.dropdownIcon {
+	font-style: normal;
+	font-weight: bold;
+}
+
+.hidden {
+	display: none;
+}
+
+@keyframes onOpen {
+	from {
+		opacity: 0;
+		transform: translateX(-10px);
+	}
+	to {
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}

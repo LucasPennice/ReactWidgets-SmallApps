@@ -1,0 +1,45 @@
+.sbForm {
+	width: 350px;
+	text-align: right;
+	margin: 0 auto;
+}
+.searchbar {
+	transition: 0.2s;
+	border: 1px solid grey;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px grey;
+	height: 2rem;
+}
+
+.searchbar:active,
+.searchbar:focus {
+	outline: none;
+	box-shadow: 0 2px 5px rgb(75, 75, 75);
+}
+
+.sbButton {
+	cursor: pointer;
+	font-size: 2rem;
+	border: 1px solid transparent;
+	background-color: white;
+	transition: 0.2s;
+}
+
+.sbButton:focus,
+.sbButton:active {
+	outline: none;
+}
+
+.sbButton:hover {
+	text-shadow: 0 2px 5px grey;
+}
+
+.sbClosed {
+	opacity: 0;
+	width: 0;
+}
+
+.sbOpen {
+	width: 80%;
+	opacity: 1;
+}

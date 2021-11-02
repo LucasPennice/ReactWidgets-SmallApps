@@ -1,0 +1,70 @@
+.hiddenMenu {
+	margin: 0 auto;
+	background-color: black;
+	border-radius: 5px;
+	width: 600px;
+	height: 600px;
+	position: relative;
+}
+
+.menuItems {
+	position: absolute;
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-size: 1.5rem;
+	color: white;
+	left: 30px;
+	bottom: 10px;
+	cursor: pointer;
+}
+
+.menuItems > p {
+	transition: 0.2s;
+}
+
+.menuItems > p:hover {
+	letter-spacing: 3px;
+}
+
+.animation {
+	animation: onOpen 1s;
+}
+
+@keyframes onOpen {
+	from {
+		opacity: 0;
+		transform: translateX(-10px);
+	}
+	to {
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+
+.appBody {
+	width: 600px;
+	height: 600px;
+	box-shadow: 0 0 5px grey;
+	background-color: white;
+	border-radius: 5px;
+	transition: 0.2s;
+	position: relative;
+	transform-origin: top left;
+	z-index: 2;
+}
+
+.menuButton {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: orange;
+	color: black;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	font-size: 3rem;
+	cursor: pointer;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
